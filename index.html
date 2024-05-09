@@ -1,0 +1,35 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="style.css"> 
+    <title>Document</title> 
+</head> 
+<body> 
+    <nav> 
+        <a>Детектив</a> 
+    </nav> 
+    <div class="dflex center"> 
+        <div id="gamebox"> 
+            <h1 >1,2,3,4,5,6 комнаты отеля.</h1> 
+            <h1 id="Hint">z - осмотреть  x - проинспектировать комнату  c - вынести вердикт v - поговорить с ассистентом</h1> 
+            <div class="flex"> 
+                <p>Сейчас ты в комнате</p>
+                <p id="room" class="ftext">5</p> 
+            </div>
+            <p id="title" class="textmain">Ты детектив. Вчера ночью в отеле произошло убиство и ты должен вычислить кто из жителей дома в этом виновен.</p>
+            <p id="titlesecond" class="textmain"></p>  
+            <div class="typer"> 
+                <input id="firstInput" class="typerbox"> 
+            </div>
+            <center>
+                <div class="mt"> 
+                    <a onclick="first()" class="btn">Отправить</a> 
+                </div> 
+            </center>
+        </div> 
+    </div> 
+    <script src="script.js"></script> 
+</body> 
+</html>
